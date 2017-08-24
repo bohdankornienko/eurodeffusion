@@ -7,11 +7,10 @@ On January 1, 2002, twelve European countries abandoned their national currency 
 euro. No more francs, marks, lires, guldens, kroner,... only euros, all over the eurozone. The same
 banknotes are used in all countries. And the same coins? Well, not quite. Each country has limited freedom
 to create its own euro coins:
-	"Every euro coin carries a common European face. On the obverse, member states decorate the
-coins with their own motif. No matter which motif is on the coin, it can be used anywhere in
-the 12 Member States. For example, a French citizen is able to buy a hot dog in Berlin using a
-euro coin with the imprint of the King of Spain." (source: http://europa.eu.int/euro/html
-/entry.html)
+> "Every euro coin carries a common European face. On the obverse, member states decorate the
+> coins with their own motif. No matter which motif is on the coin, it can be used anywhere in
+> the 12 Member States. For example, a French citizen is able to buy a hot dog in Berlin using a
+> euro coin with the imprint of the King of Spain." (source: http://europa.eu.int/euro/html/entry.html)
 
 On January 1, 2002, the only euro coins available in Paris were French coins. Soon the first non-French
 coins appeared in Paris. Eventually, one may expect all types of coins to be evenly distributed over the
@@ -63,6 +62,7 @@ completion. If two countries have identical days to completion, order them alpha
 Use the output format shown in the example.
 
 ## Sample Input
+<pre>
 3
 France 1 4 4 6
 Spain 3 1 6 3
@@ -73,7 +73,9 @@ Luxembourg 1 1 1 1
 Netherlands 1 3 2 4
 Belgium 1 1 2 2
 0
+</pre>
 
+<pre>
 ## Sample Output
 Case Number 1
 	Spain 382
@@ -84,4 +86,4 @@ Case Number 2
 Case Number 3
 	Belgium 2
 	Netherlands 2
-
+</pre>
