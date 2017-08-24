@@ -30,17 +30,19 @@ represent seas, or non-euro countries such as Switzerland or Denmark. Initially,
 beginning day balance, is transported to each neighbor of the city. A representative portion is defined as one
 coin for every full 1000 coins of a motif.
 
-> * - * - * - *
-> |   |   |   |
-> * - * - * - *
-> |   |   |   |
-> * - * - * - *
->         |   |
->         x - x - x - x
->         |   |   |   |
-> o - o - x - x - x - x
-> |   |   |   |   |   |
-> o - o - x - x - x - x
+<pre>
+* - * - * - *
+|   |   |   |
+* - * - * - *
+|   |   |   |
+* - * - * - *
+        |   |
+        x - x - x - x
+        |   |   |   |
+o - o - x - x - x - x
+|   |   |   |   |   |
+o - o - x - x - x - x
+</pre>
 
 A city is complete when at least one coin of each motif is present in that city. A country is complete when all
 of its cities are complete. Your program must determine the time required for each country to become
